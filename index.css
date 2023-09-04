@@ -1,0 +1,68 @@
+
+.header{
+
+    display:flex;
+    justify-content: space-between;
+    border:  1px solid black;
+    background-color: rgb(244, 242, 240);
+    height: 200px;
+    padding: 20px;
+ 
+   
+
+}
+
+.logo{
+
+    width:150px;
+}
+
+
+.nave-items>ul{
+    display:flex;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.nave-items>ul>li{
+    padding:50px
+}
+
+.res-img{
+    width:100%;
+    height: 200px
+}
+.res-card {
+    cursor: pointer;
+    width: 200px;
+    
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+
+   
+}
+.top-res{
+    padding: 5px;
+    background-color: whitesmoke;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.res-cointainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.search{
+    border: solid;
+    
+    padding: 4px;
+}
+
+.search-btn{
+    margin: 4px;
+    padding: 4px;
+}
